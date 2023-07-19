@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Keshav</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/media/FF_l8dvVEAA27OI?format=png&name=small" type="image/x-icon">
+
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="data:image/jpeg;base64,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">
+        <h3 class="name">Piyush Raj</h3>
+        <p class="post">Front End Developer || Entrepreneur</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact Details</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Piyush Raj</span></h1>
+    <p> "Hi there! My self Piysuh Raj and I am currently a 4th-year Computer Science student at Haldia Institute of Technology. I am passionate about web development and am always eager to learn new technologies and skills.
+
+    </p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Kunal Keshav </h3>
+        <h3> <span> age : </span> 19 </h3>
+        <h3> <span> qualification : </span> Pursuing B.Tech </h3>
+        <h3> <span> post : </span> front end developer and programmer</h3>
+        <h3> <span> language : </span> English,Hindi </h3>
+        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>6+</span>
+            <h3>months of experience</h3>
+        </div>
+
+        <div class="box">
+            <span>5+</span>
+            <h3>project completed</h3>
+        </div>
+
+        <div class="box">
+            <span>3+</span>
+            <h3>Running Projects</h3>
+        </div>
+
+        <div class="box">
+            <span>12+</span>
+            <h3>Certifications</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2016-2017</span>
+        <h3>Matriculation</h3>
+        <p>I have done my matriculation from R.P.S Public School,Patna (Bihar) which is affiliated to CBSE with 92%.
+        participated in all india science olympiad </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017-2019</span>
+        <h3>intermediate</h3>
+        <p> I have done my intermediate from Degree College,Supaul(Bihar) which is affiliated to BSEB  with 82%.
+        some of my achivements are as follows:<p>*joined a NPO and helped 1000+ Childrens</p>
+      <p> *Won Mathmatics resoning Contest among 200+ batchmates  </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020-2024</span>
+        <h3>Bachelor of Technology</h3>
+        <p>
+            My Bachelor of Technolog in Computer Science & Engineering will be
+            completed by 2024 from Haldia Institute of Technology.</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>Responsive Website Basics</h3>
+        <p> I completed Responsive Website Basics: Code with HTML, CSS, and JavaScript course offered by University of London through Coursera.</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>Technical Writing</h3>
+        <p>I completed Technical Writing course offered by Moscow Institute of Physics and Technology through Coursera</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>Computing Using Python</h3>
+        <p>I completed Joy Of Computing Using Python course offered by IIT Madras through NPTEL.</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="achievements" id="achievements">
+
+<h1 class="heading"> my <span>achievements</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="certi1.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="certi2.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="certi6.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="certi4.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="certi5.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="certi3.jpg" alt="">
+    </div>
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info navlinks">
+          <h3><a href="mailto:kunalkeshav2002@gmail.com"><i class="fas fa-envelope"></i> Email</a></h3>
+            
+            <h3>
+              <a href="https://github.com/iamkunalkeshav" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </h3>
+            <h3>
+              <a href="https://www.linkedin.com/in/kunalkeshav/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a>
+            </h3>
+            <h3><i class="fas fa-mobile"></i> 7033129490</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Haldia, india - 721657.</h3>
+            
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
